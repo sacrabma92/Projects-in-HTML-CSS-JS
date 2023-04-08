@@ -1,0 +1,17 @@
+body {
+   background: #187ef3;
+   text-align: center;
+}
+
+img {
+  margin: 100px 20px;
+}
+
+.logo {
+  box-shadow: 0 0 15px 10px #FFF;
+}
+
+.logo2 {
+  filter: drop-shadow(0 0 15px #ffffff);
+  width: 500px;
+}
