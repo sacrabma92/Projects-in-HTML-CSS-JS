@@ -1,6 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
+html {
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/* Globales */
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor {
+    /* ancho maximo 1200 px */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header y Navegación */
+.nombre-sitio {
+    /* Margin Arriba y abajo 50. Derecha e Izquierda 0px */
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.nombre-sitio span {
+    color: #037bc0;
+}
+
+.contenedor-navegacion{
+    /* Grueso del borde, tipo de borde, color */
+    border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal{
+    /* Padding Arriba y abajo 50. Derecha e Izquierda 20px */
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero {
+    /* Unbicacón de la imagen con o sin "" */
+    background-image: url(../img/principal.jpg);
+    /* Para que la imagen no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se estira y ocupa todo el espacio */
+    background-size: cover;
+    /* Altura fija de la imagen */
+    height: 550px;
+}
+
+/* Categorias */
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
 }

@@ -4,46 +4,55 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Eccomerce</title>
+	<title>Ecommerce</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="">
 
 	<header>
-		<h1>Tienda Muebles</h1>
+		<h1 class="nombre-sitio">Tienda <span class="">Muebles</span></h1>
 	</header>
 
-	<nav>
-		<a href="index.html">Inicio</a>
-		<a href="nosotros.html">Nosotros</a>
-		<a href="tienda.html">Tienda</a>
-		<a href="blog.html">Blog</a>
-		<a href="galeria.html">Galeria</a>
-		<a href="contacto.html">Contacto</a>
-	</nav>
+	<div class="contenedor-navegacion">
+		<nav class="nav-principal contenedor">
+			<a class="enlace" href="index.html">Inicio</a>
+			<a class="enlace" href="nosotros.html">Nosotros</a>
+			<a class="enlace" href="tienda.html">Tienda</a>
+			<a class="enlace" href="blog.html">Blog</a>
+			<a class="enlace" href="galeria.html">Galeria</a>
+			<a class="enlace" href="contacto.html">Contacto</a>
+		</nav>
+	</div>
 
-	<section>
+
+	<div class="hero"></div>
+
+	<section class="contenedor">
 		<h2>Categorías de Productos</h2>
 
-		<div>
-			<img src="img/categoria1.jpg" alt="Imagen Categoria">
-			<a href="#">Oficina</a>
+		<div class="listado-categorias">
+			<div>
+				<img src="img/categoria1.jpg" alt="Imagen Categoria">
+				<a href="#">Oficina</a>
+			</div>
+	
+			<div>
+				<img src="img/categoria2.jpg" alt="Imagen Categoria">
+				<a href="#">Hogar</a>
+			</div>
+	
+			<div>
+				<img src="img/categoria3.jpg" alt="Imagen Categoria">
+				<a href="#">Cocina</a>
+			</div>
 		</div>
 
-		<div>
-			<img src="img/categoria2.jpg" alt="Imagen Categoria">
-			<a href="#">Hogar</a>
-		</div>
-
-		<div>
-			<img src="img/categoria3.jpg" alt="Imagen Categoria">
-			<a href="#">Cocina</a>
-		</div>
 	</section><!-- FIN categoria de Productos -->
 
 	<section>
-		<div>
+		<div class="sobre-nosotros">
 			<h2>Sobre Nosotros</h2>
 			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque, perspiciatis molestiae labore, maiores voluptate porro asperiores dicta dolorum commodi praesentium quod! Velit ipsum sapiente fugit asperiores tenetur maiores praesentium.</p>
 		</div>
