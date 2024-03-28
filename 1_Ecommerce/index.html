@@ -4,12 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ecommerce</title>
+	<title>Ecommerce - Home</title>
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="">
+<body>
 
 	<header>
 		<h1 class="nombre-sitio">Tienda <span class="">Muebles</span></h1>
@@ -29,21 +34,21 @@
 
 	<div class="hero"></div>
 
-	<section class="contenedor">
-		<h2>Categorías de Productos</h2>
+	<section class="contenedor categorias">
+		<h2 class="text-center">Categorías de Productos</h2>
 
 		<div class="listado-categorias">
-			<div>
+			<div class="categoria">
 				<img src="img/categoria1.jpg" alt="Imagen Categoria">
 				<a href="#">Oficina</a>
 			</div>
-	
-			<div>
+
+			<div class="categoria">
 				<img src="img/categoria2.jpg" alt="Imagen Categoria">
 				<a href="#">Hogar</a>
 			</div>
-	
-			<div>
+
+			<div class="categoria">
 				<img src="img/categoria3.jpg" alt="Imagen Categoria">
 				<a href="#">Cocina</a>
 			</div>
@@ -51,126 +56,123 @@
 
 	</section><!-- FIN categoria de Productos -->
 
-	<section>
-		<div class="sobre-nosotros">
-			<h2>Sobre Nosotros</h2>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque, perspiciatis molestiae labore, maiores voluptate porro asperiores dicta dolorum commodi praesentium quod! Velit ipsum sapiente fugit asperiores tenetur maiores praesentium.</p>
+	<section class="sobre-nosotros">
+		<div class="contenedor sobre-nosotros-grid">
+			<div class="texto-nosotros">
+				<h2>Sobre Nosotros</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque, perspiciatis
+					molestiae labore, maiores voluptate porro asperiores dicta dolorum commodi praesentium quod! Velit
+					ipsum sapiente fugit asperiores tenetur maiores praesentium.</p>
+			</div>
 		</div>
 	</section><!-- FIN sobre Nosotros -->
 
-	<main>
-		<div>
-			<h2>Nuestros Productos</h2>
+	<main class="contenido-principal contenedor">
+		<h2 class="text-center">Nuestros Productos</h2>
 
-			<div>
-				<div>
-					<img src="img/producto1.jpg" alt="Imagen Producto">
-					<div>
-						<h3>Producto 1</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p>$1,000.00</p>
-						<a href="#">Agregar al Carrito</a>
-					</div>
-				</div>
+		<div class="listado-productos">
+
+			<div class="producto">
+				<img src="img/producto1.jpg" alt="Imagen Producto">
+				<div class="texto-producto">
+					<h3>Producto 1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p class="precio">$1,000.00</p>
+					<a class="btn" href="#">Agregar al Carrito</a>
+				</div> <!-- Info Producto-->
 			</div><!-- FIN de producto -->
 
-			<div>
-				<div>
-					<img src="img/producto2.jpg" alt="Imagen Producto">
-					<div>
-						<h3>Producto 2</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p>$1,000.00</p>
-						<a href="#">Agregar al Carrito</a>
-					</div>
-				</div>
+			<div class="producto">
+				<img src="img/producto2.jpg" alt="Imagen Producto">
+				<div class="texto-producto">
+					<h3>Producto 2</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p class="precio">$1,000.00</p>
+					<a class="btn" href="#">Agregar al Carrito</a>
+				</div> <!-- Info Producto-->
 			</div><!-- FIN de producto -->
 
-			<div>
-				<div>
-					<img src="img/producto3.jpg" alt="Imagen Producto">
-					<div>
-						<h3>Producto 3</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p>$1,000.00</p>
-						<a href="#">Agregar al Carrito</a>
-					</div>
-				</div>
+			<div class="producto">
+				<img src="img/producto3.jpg" alt="Imagen Producto">
+				<div class="texto-producto">
+					<h3>Producto 3</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p class="precio">$1,000.00</p>
+					<a class="btn" href="#">Agregar al Carrito</a>
+				</div> <!-- Info Producto-->
 			</div><!-- FIN de producto -->
 
-			<div>
-				<div>
-					<img src="img/producto4.jpg" alt="Imagen Producto">
-					<div>
-						<h3>Producto 4</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p>$1,000.00</p>
-						<a href="#">Agregar al Carrito</a>
-					</div>
-				</div>
+			<div class="producto">
+				<img src="img/producto4.jpg" alt="Imagen Producto">
+				<div class="texto-producto">
+					<h3>Producto 4</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p class="precio">$1,000.00</p>
+					<a class="btn" href="#">Agregar al Carrito</a>
+				</div> <!-- Info Producto-->
 			</div><!-- FIN de producto -->
 
-			<div>
-				<div>
-					<img src="img/producto5.jpg" alt="Imagen Producto">
-					<div>
-						<h3>Producto 5</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p>$1,000.00</p>
-						<a href="#">Agregar al Carrito</a>
-					</div>
-				</div>
+			<div class="producto">
+				<img src="img/producto5.jpg" alt="Imagen Producto">
+				<div class="texto-producto">
+					<h3>Producto 5</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p class="precio">$1,000.00</p>
+					<a class="btn" href="#">Agregar al Carrito</a>
+				</div> <!-- Info Producto-->
 			</div><!-- FIN de producto -->
 
-			<div>
-				<div>
-					<img src="img/producto6.jpg" alt="Imagen Producto">
-					<div>
-						<h3>Producto 6</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p>$1,000.00</p>
-						<a href="#">Agregar al Carrito</a>
-					</div>
-				</div>
+			<div class="producto">
+				<img src="img/producto6.jpg" alt="Imagen Producto">
+				<div class="texto-producto">
+					<h3>Producto 6</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p class="precio">$1,000.00</p>
+					<a class="btn" href="#">Agregar al Carrito</a>
+				</div> <!-- Info Producto-->
 			</div><!-- FIN de producto -->
-			
+
 		</div> <!-- FIN LISTA DE PRODUCTOS-->
 	</main>
 
-	<footer>
-		<div>
-			<h3>CAtegorías</h3>
-			<nav>
-				<a href="#">Cocina</a>
-				<a href="#">Oficina</a>
-				<a href="#">Jardin</a>
-				<a href="#">Cochera</a>
-				<a href="#">Dormitorios</a>
-			</nav>
+	<footer class="site-footer">
+		<div class="grid-footer contenedor">
+			<div>
+				<h3>Categorías</h3>
+				<nav class="footer-menu">
+					<a href="#">Cocina</a>
+					<a href="#">Oficina</a>
+					<a href="#">Jardin</a>
+					<a href="#">Cochera</a>
+					<a href="#">Dormitorios</a>
+				</nav>
+			</div>
+
+			<div>
+				<h3>Sobre Nosotros</h3>
+				<nav class="footer-menu">
+					<a href="#">Nuestra Historia</a>
+					<a href="#">Misión, Visión y Valores</a>
+					<a href="#">Carreras</a>
+					<a href="#">Politica de Privadidad</a>
+					<a href="#">Terminos del Servicio</a>
+				</nav>
+			</div>
+
+			<div>
+				<h3>Soporte</h3>
+				<nav class="footer-menu">
+					<a href="#">Preguntas Frecuentes</a>
+					<a href="#">Ayuda en Linea</a>
+					<a href="#">Confianza y Seguridad</a>
+				</nav>
+			</div>
 		</div>
 
-		<div>
-			<h3>Sobre Nosotros</h3>
-			<nav>
-				<a href="#">Nuestra Historia</a>
-				<a href="#">Misión, Visión y Valores</a>
-				<a href="#">Carreras</a>
-				<a href="#">Politica de Privadidad</a>
-				<a href="#">Terminos del Servicio</a>
-			</nav>
-		</div>
+		<p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
 
-		<div>
-			<h3>Soporte</h3>
-			<nav>
-				<a href="#">Preguntas Frecuentes</a>
-				<a href="#">Ayuda en Linea</a>
-				<a href="#">Confianza y Seguridad</a>
-			</nav>
-		</div>
-
-		<p>Todos los derechos Reservados, TiendaMuebles</p>
 	</footer>
 
 </body>
+
 </html>
