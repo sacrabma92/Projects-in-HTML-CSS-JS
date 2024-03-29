@@ -1,0 +1,9 @@
+/* Le aplica todo los parrafos menos al que tenga la clase .texto */
+p:not(.texto){
+    color: red;
+}
+
+/* NO les aplique a los parrafos que tengan la clase .texto y .oferta */
+p:not(.texto):not(.oferta){
+    color: red;
+}

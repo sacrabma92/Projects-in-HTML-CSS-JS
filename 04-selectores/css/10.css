@@ -1,0 +1,15 @@
+
+/* Que le aplique estilos a todo atributo que tengan http. Se le coloca ^ */
+a[href^="http"] {
+    color: crimson;
+}
+
+/* Que le aplique estilos a todo atributo que finalice en .html. Se coloca $ */
+a[href$=".html"] {
+    color: chartreuse;
+}
+
+/* Todo input que tenga el atrinuto tel */
+input[type="tel"] {
+    border: 2px solid orangered ;
+}
