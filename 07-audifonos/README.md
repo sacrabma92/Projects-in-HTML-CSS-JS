@@ -8,3 +8,5 @@ Degradados en imagenes y texto.
 Imagenes que simulan ser iconos.
 
 Link: https://serene-almeida-da63e2.netlify.app/
+
+<img src="../imgs/04.PNG">
